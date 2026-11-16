@@ -1,0 +1,60 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local environment settings; keep sanitized examples available
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+
+# Local databases and database backups
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+*.dump
+*.dump.*
+*.sql
+*.sql.*
+*.backup
+
+# Private keys and credential containers
+*.key
+*.pem
+*.p12
+*.pfx
+*.p8
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_dsa
+id_dsa.*
+id_ecdsa
+id_ecdsa.*
+id_ed25519
+id_ed25519.*
+
+# Logs
+*.log
+*.log.*
+logs/
+
+# Test, type-checker, and packaging output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
